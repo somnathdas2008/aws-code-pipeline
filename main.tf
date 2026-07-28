@@ -11,7 +11,7 @@ resource "aws_s3_bucket" "demo_bucket" {
   bucket = "somnath-demo-bucket-123456-test"
 
   tags = {
-    Environment = "dev"
+    Environment = "test"
     ManagedBy   = "Terraform"
   }
 }
