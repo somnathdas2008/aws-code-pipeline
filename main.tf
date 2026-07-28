@@ -6,3 +6,12 @@ resource "aws_s3_bucket" "demo_bucket" {
     ManagedBy   = "Terraform"
   }
 }
+
+resource "aws_s3_bucket" "demo_bucket" {
+  bucket = "somnath-demo-bucket-123456-test"
+
+  tags = {
+    Environment = "dev"
+    ManagedBy   = "Terraform"
+  }
+}
