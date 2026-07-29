@@ -7,8 +7,8 @@ resource "aws_s3_bucket" "demo_bucket" {
   }
 }
 
-resource "aws_s3_bucket" "demo_bucket2" {
-  bucket = "somnath-demo-bucket-123456-test1"
+resource "aws_s3_bucket" "demo_bucket3" {
+  bucket = "somnath-demo-bucket-123456-test11"
 
   tags = {
     Environment = "test1"
